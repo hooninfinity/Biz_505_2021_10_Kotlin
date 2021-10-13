@@ -16,12 +16,21 @@ fun main() {
      * 키보드를 사용하여 2개의 문자열형 숫자를 입력 받고
      * 두 숫자의 4칙연산을 수행하여 console 에 표시하시오
      */
-    print("문자열 1을 입력 : ")
-    var input1:String = scan.nextLine()
-    print("문자열 2을 입력 : ")
-    var input2:String = scan.nextLine()
-    print("계산할 기호를 입력 : ")
-    var input3:String = scan.nextLine()
-    println("입력한 4칙연산 : $input1 ")
+    // Hello_08에 풀이가 있음
+// 내가 만든 코드
+//    print("첫번째 숫자 입력 : ")
+//    var input1:Int = scan.nextInt()
+//    print("두번째 숫자 입력 : ")
+//    var input2:Int = scan.nextInt()
+//    var add = input1 + input2
+//    var minus = input1 - input2
+//    var multi = input1 * input2
+//    var divide = input1 / input2
+//    println("입력한 숫자의 합 : $add")
+//    println("입력한 숫자의 차 : $minus")
+//    println("입력한 숫자의 곱 : $multi")
+//    println("입력한 숫자의 나누기 : $divide")
+
+
 
 }
