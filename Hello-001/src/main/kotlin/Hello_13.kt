@@ -8,6 +8,11 @@ fun main() {
     }
     println()
 
+    for (num in 2..(num1-1)) {
+        print("$num, ")
+    }
+    println()
+
     /**
      * 0 ~ 99까지 범위 중 임의로 생성되어 num1 에 저장된 숫자가
      * prime 수인지 판단하여 출력하시오
@@ -16,14 +21,17 @@ fun main() {
      * 2 ~ 자기자신-1 까지 범위의 숫자와 나누어
      * 나머지가 한번도 없는 숫자
      */
-    for (num in 2..(num1-1)) {
-        if (num1 % 2 == 0) {
-            print("$num 는 소수임, ")
-        }
-        print("$num 는 소수가 아님, ")
 
+    for (num in 2..(num1-1)) {
+        if (num1 % num == 0) {
+            print("$num 은 소수, ")
+        } else {
+            print("$num 은 소수가 아님, ")
+        }
     }
     println()
+
+
 
 
 }
